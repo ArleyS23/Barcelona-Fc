@@ -1,0 +1,25 @@
+:root {
+  --color-barca-blue: #004d98;
+  --color-barca-maroon: #a50044;
+  --color-barca-gold: #edbb00;
+  --color-bg-primary: #fafaf8;
+  --color-bg-secondary: #f2f0ec;
+  --color-bg-dark: #0a1628;
+  --color-text-primary: #1a1a2e;
+  --color-text-secondary: #4a5568;
+  --color-text-light: #fff;
+  --gradient-barca: linear-gradient(135deg, #004d98 0%, #a50044 100%);
+  --gradient-hero: linear-gradient(160deg, #0a1628 0%, #004d98 60%, #a50044 100%);
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Lato", sans-serif;
+  --space-2: 0.5rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --shadow-md: 0 4px 16px rgba(0, 77, 152, 0.15);
+  --navbar-width: 260px;
+  --content-max-width: 1200px;
+}

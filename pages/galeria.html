@@ -1,0 +1,22 @@
+<section class="section">
+  <h1>Galeria visual</h1>
+  <p class="section-subtitle">Explora momentos historicos, leyendas y el Camp Nou.</p>
+  <label for="galeria-filter">Filtrar</label>
+  <select id="galeria-filter">
+    <option value="all">Todas</option>
+    <option value="titulos">Titulos</option>
+    <option value="leyendas">Leyendas</option>
+    <option value="estadio">Estadio</option>
+    <option value="femeni">Femeni</option>
+  </select>
+  <div id="galeria-grid" class="gallery-grid"></div>
+  <div id="gallery-lightbox" class="gallery-lightbox" hidden>
+    <button type="button" id="lightbox-close" aria-label="Cerrar galeria ampliada">Cerrar</button>
+    <button type="button" id="lightbox-prev" aria-label="Imagen anterior">Anterior</button>
+    <figure class="gallery-lightbox__figure">
+      <img id="lightbox-image" src="" alt="" />
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+    <button type="button" id="lightbox-next" aria-label="Imagen siguiente">Siguiente</button>
+  </div>
+</section>

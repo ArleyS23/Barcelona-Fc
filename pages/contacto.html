@@ -1,0 +1,32 @@
+<section class="section">
+  <h1>Contacto</h1>
+  <div class="contact-grid">
+    <form id="contact-form" class="contact-form">
+      <label for="nombre">Nombre</label>
+      <input id="nombre" name="nombre" required />
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required />
+      <label for="pais">Pais</label>
+      <input id="pais" name="pais" />
+      <label for="antiguedad">Cuanto tiempo eres Culer?</label>
+      <select id="antiguedad" name="antiguedad" required>
+        <option value="">Selecciona una opcion</option>
+        <option value="<1">< 1 ano</option>
+        <option value="1-5">1-5 anos</option>
+        <option value="5-10">5-10 anos</option>
+        <option value="vida">Toda la vida</option>
+      </select>
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+      <button type="submit">Enviar</button>
+      <p id="contact-feedback" aria-live="polite"></p>
+    </form>
+
+    <aside class="creator-card">
+      <h2>Brayan Arley Saenz Cortes</h2>
+      <p>Ingenieria de Sistemas y Computacion</p>
+      <p>Villa de San Diego de Ubate, Colombia</p>
+      <p><a href="mailto:minicortes963@gmail.com">minicortes963@gmail.com</a></p>
+    </aside>
+  </div>
+</section>

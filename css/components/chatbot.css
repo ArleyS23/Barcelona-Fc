@@ -1,0 +1,49 @@
+.culebot-bubble {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  border: 0;
+  background: var(--gradient-barca);
+  color: #fff;
+  cursor: pointer;
+}
+
+.culebot-panel {
+  position: fixed;
+  right: 1rem;
+  bottom: 5.5rem;
+  width: min(380px, 92vw);
+  height: 480px;
+  background: #fff;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.culebot-panel__header,
+.culebot-panel__form {
+  padding: var(--space-4);
+}
+
+.culebot-panel__messages {
+  padding: var(--space-4);
+  overflow: auto;
+}
+
+.chat-msg {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.75rem;
+  margin-bottom: 0.5rem;
+  max-width: 85%;
+}
+.chat-msg.user {
+  margin-left: auto;
+  background: #e8f0ff;
+}
+.chat-msg.bot {
+  background: #f2f0ec;
+}
